@@ -134,5 +134,7 @@ The Spring PetClinic sample application is released under version 2.0 of the [Ap
 
 
 clone the repo
+
 $ docker build . -t spring-petclinic
+
 $ docker run -p 8080:8080 --name spring-petclinic spring-petclinic
